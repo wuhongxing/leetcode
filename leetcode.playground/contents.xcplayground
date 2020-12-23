@@ -9,5 +9,6 @@
         <page name='非递减数列'/>
         <page name='整数反转'/>
         <page name='x 的平方根'/>
+        <page name='4的幂'/>
     </pages>
 </playground>
