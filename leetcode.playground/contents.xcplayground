@@ -4,5 +4,6 @@
         <page name='两数之和'/>
         <page name='两数相加'/>
         <page name='无重复字符的最长子串'/>
+        <page name='字符串中的第一个唯一字符'/>
     </pages>
 </playground>
