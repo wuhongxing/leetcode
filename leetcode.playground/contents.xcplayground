@@ -6,5 +6,6 @@
         <page name='无重复字符的最长子串'/>
         <page name='字符串中的第一个唯一字符'/>
         <page name='环形链表'/>
+        <page name='非递减数列'/>
     </pages>
 </playground>
