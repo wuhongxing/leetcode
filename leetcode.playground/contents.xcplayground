@@ -7,5 +7,6 @@
         <page name='字符串中的第一个唯一字符'/>
         <page name='环形链表'/>
         <page name='非递减数列'/>
+        <page name='整数反转'/>
     </pages>
 </playground>
