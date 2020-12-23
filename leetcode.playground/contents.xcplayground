@@ -8,5 +8,6 @@
         <page name='环形链表'/>
         <page name='非递减数列'/>
         <page name='整数反转'/>
+        <page name='x 的平方根'/>
     </pages>
 </playground>
