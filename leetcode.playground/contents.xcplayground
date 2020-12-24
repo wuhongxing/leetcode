@@ -10,5 +10,6 @@
         <page name='整数反转'/>
         <page name='x 的平方根'/>
         <page name='4的幂'/>
+        <page name='分发糖果'/>
     </pages>
 </playground>
