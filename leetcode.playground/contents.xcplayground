@@ -19,5 +19,6 @@
         <page name='删除链表的倒数第N个节点'/>
         <page name='移除链表元素'/>
         <page name='Untitled Page'/>
+        <page name='奇偶链表'/>
     </pages>
 </playground>
