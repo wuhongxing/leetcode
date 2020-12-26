@@ -17,5 +17,7 @@
         <page name='环形链表2'/>
         <page name='相交链表'/>
         <page name='删除链表的倒数第N个节点'/>
+        <page name='移除链表元素'/>
+        <page name='Untitled Page'/>
     </pages>
 </playground>
