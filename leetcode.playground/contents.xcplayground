@@ -20,5 +20,6 @@
         <page name='移除链表元素'/>
         <page name='Untitled Page'/>
         <page name='奇偶链表'/>
+        <page name='回文链表'/>
     </pages>
 </playground>
