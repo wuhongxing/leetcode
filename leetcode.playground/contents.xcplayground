@@ -22,5 +22,7 @@
         <page name='奇偶链表'/>
         <page name='回文链表'/>
         <page name='合并两个有序链表'/>
+        <page name='旋转矩阵'/>
+        <page name='反转字符串'/>
     </pages>
 </playground>
