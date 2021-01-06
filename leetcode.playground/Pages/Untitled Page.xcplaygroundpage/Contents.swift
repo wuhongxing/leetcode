@@ -36,12 +36,13 @@ class Solution1 {
             return head
         }
         let p = reverseList(head?.next)
+        print(p?.val)
         head?.next?.next = head
         head?.next = nil
         return p
     }
 }
 
-var solution = Solution()
+var solution = Solution1()
 let node1 = ListNode(10, ListNode(20, ListNode(30)))
 solution.reverseList(node1)

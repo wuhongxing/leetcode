@@ -26,5 +26,9 @@
         <page name='反转字符串'/>
         <page name='汉明距离'/>
         <page name='拿硬币'/>
+        <page name='遍历链表'/>
+        <page name='多数元素'/>
+        <page name='移动0'/>
+        <page name='缺失数字'/>
     </pages>
 </playground>
