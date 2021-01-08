@@ -5,5 +5,7 @@
         <page name='选择排序'/>
         <page name='插入排序'/>
         <page name='希尔排序'/>
+        <page name='归并排序'/>
+        <page name='快速排序'/>
     </pages>
 </playground>
