@@ -31,5 +31,6 @@
         <page name='移动0'/>
         <page name='缺失数字'/>
         <page name='十-二进制数的最少数目'/>
+        <page name='动态规划'/>
     </pages>
 </playground>
