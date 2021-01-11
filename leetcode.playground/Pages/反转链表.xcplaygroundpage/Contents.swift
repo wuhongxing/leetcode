@@ -6,7 +6,6 @@
  输出: 5->4->3->2->1->NULL
  ```
  */
-
 class ListNode {
     var val: Int
     var next: ListNode?
@@ -19,13 +18,31 @@ class ListNode {
 
 class Solution {
     func reverseList(_ head: ListNode?) -> ListNode? {
-        var node = head
-        while head != nil {
-            node = node?.next
+        var temp = head
+        var result: ListNode? = nil
+        while temp != nil {
+            let tempNext = temp?.next
+            temp?.next = result
+            result = temp
+            temp = tempNext
         }
-        return nil
+        return result
     }
 }
-var list = ListNode(10, ListNode(20, ListNode(30, ListNode(40))))
-var solution = Solution()
-solution.reverseList(list)
+
+class Solution1 {
+    func reverseList(_ head: ListNode?) -> ListNode? {
+        if head == nil || head?.next == nil {
+            return head
+        }
+        let p = reverseList(head?.next)
+        print(p?.val)
+        head?.next?.next = head
+        head?.next = nil
+        return p
+    }
+}
+
+var solution = Solution1()
+let node1 = ListNode(10, ListNode(20, ListNode(30)))
+solution.reverseList(node1)

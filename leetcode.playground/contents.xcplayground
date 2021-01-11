@@ -13,14 +13,11 @@
         <page name='分发糖果'/>
         <page name='设计链表'/>
         <page name='分发饼干'/>
-        <page name='反转链表'/>
         <page name='环形链表2'/>
         <page name='相交链表'/>
         <page name='删除链表的倒数第N个节点'/>
         <page name='移除链表元素'/>
-        <page name='Untitled Page'/>
         <page name='奇偶链表'/>
-        <page name='回文链表'/>
         <page name='合并两个有序链表'/>
         <page name='旋转矩阵'/>
         <page name='反转字符串'/>
@@ -40,5 +37,6 @@
         <page name='有效的字母异位词'/>
         <page name='验证回文串'/>
         <page name='位 1 的个数'/>
+        <page name='颠倒二进制位'/>
     </pages>
 </playground>
