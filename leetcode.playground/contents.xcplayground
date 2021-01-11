@@ -32,5 +32,8 @@
         <page name='缺失数字'/>
         <page name='十-二进制数的最少数目'/>
         <page name='动态规划'/>
+        <page name='二叉树的前序遍历'/>
+        <page name='猜数字大小'/>
+        <page name='搜索旋转排序数组'/>
     </pages>
 </playground>
