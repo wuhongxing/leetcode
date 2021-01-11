@@ -38,5 +38,6 @@
         <page name='设计哈希集合'/>
         <page name='设计哈希映射'/>
         <page name='有效的字母异位词'/>
+        <page name='验证回文串'/>
     </pages>
 </playground>
