@@ -37,5 +37,6 @@
         <page name='搜索旋转排序数组'/>
         <page name='设计哈希集合'/>
         <page name='设计哈希映射'/>
+        <page name='有效的字母异位词'/>
     </pages>
 </playground>
