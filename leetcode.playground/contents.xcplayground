@@ -35,5 +35,7 @@
         <page name='二叉树的前序遍历'/>
         <page name='猜数字大小'/>
         <page name='搜索旋转排序数组'/>
+        <page name='设计哈希集合'/>
+        <page name='设计哈希映射'/>
     </pages>
 </playground>
