@@ -12,14 +12,14 @@
  */
 class Solution {
     func reverseString(_ s: inout [Character]) {
-        var i = s.count / 2
+        let i = s.count / 2
         for j in 0 ..< i {
             (s[j], s[s.count - j - 1]) = (s[s.count - j - 1], s[j])
         }
     }
 }
 
-var solution = Solution()
+var solution = Solution1()
 var a: [Character] = ["h","e","l","a","l","o"]
 solution.reverseString(&a)
 a

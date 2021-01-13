@@ -38,5 +38,11 @@
         <page name='验证回文串'/>
         <page name='位 1 的个数'/>
         <page name='颠倒二进制位'/>
+        <page name='反转链表'/>
+        <page name='回文链表'/>
+        <page name='岛屿数量'/>
+        <page name='二叉树的层序遍历'/>
+        <page name='LRU'/>
+        <page name='LRU-2'/>
     </pages>
 </playground>
