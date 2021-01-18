@@ -44,5 +44,8 @@
         <page name='二叉树的层序遍历'/>
         <page name='LRU'/>
         <page name='LRU-2'/>
+        <page name='链表的中间结点'/>
+        <page name='斐波那切数列'/>
+        <page name='求 1 + 2 + 3 + ... + n'/>
     </pages>
 </playground>
