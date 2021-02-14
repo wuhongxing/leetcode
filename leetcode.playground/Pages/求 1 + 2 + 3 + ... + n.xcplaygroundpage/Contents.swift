@@ -47,11 +47,23 @@ var solution = Solution()
 solution.sumNums1(3)
 solution.sumNums1(9)
 
-func test() -> Bool {
-    print("test")
-    return true
+func get(_ v1: Int, _ v2: Int) -> Int {
+    return v1 > 0 ? v1 : v2
 }
-var a: Bool? = true
-//a ?? test()
-a ?? test()
+get(10, 20)
+get(-2, 20)
+get(0, -4)
+func get1(_ v1: Int, _ v2: () -> Int) -> Int {
+    return v1 > 0 ? v1 : v2()
+}
+get1(10, { 20 })
+get1(-2, { 20 })
+get1(0, { -4 })
 
+// `@autoclosure` 只适合**无参闭包**
+func get2(_ v1: Int, _ v2: @autoclosure () -> Int) -> Int {
+    return v1 > 0 ? v1 : v2()
+}
+get2(10, 20)
+get2(-2, 20)
+get2(0, -4)

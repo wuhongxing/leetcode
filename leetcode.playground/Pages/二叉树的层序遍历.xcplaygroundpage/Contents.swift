@@ -33,16 +33,33 @@ class TreeNode {
 var node = TreeNode(1, TreeNode(9), TreeNode(10, TreeNode(15), TreeNode(7)))
 class Solution {
     func levelOrder(_ root: TreeNode?) -> [[Int]] {
-        guard let root = root else { return [[]] }
-        var result = [[TreeNode]]()
-        result.append([root])
-        var temp = [Int]()
-        while let node = result.last {
-            for i in 0 ..< node.count {
-                result.append(contentsOf: a)
+        guard var root = root else { return [] }
+        var result = [[Int]]()
+        var queue = [TreeNode]()
+        queue.append(root)
+        var curretNum = 1
+        while !queue.isEmpty {
+            print(queue.count)
+            var temp = [Int]()
+            var nextNum = 0
+            for _ in 0 ..< curretNum {
+                if let val = queue.first?.val {
+                    temp.append(val)
+                }
+                if let left = queue.first?.left {
+                    queue.append(left)
+                    nextNum += 1
+                }
+                if let right = queue.first?.right {
+                    queue.append(right)
+                    nextNum += 1
+                }
+                queue.removeFirst()
             }
+            result.append(temp)
+            curretNum = nextNum
         }
-        return [[]]
+        return result
     }
 }
 var solution = Solution()

@@ -47,5 +47,7 @@
         <page name='链表的中间结点'/>
         <page name='斐波那切数列'/>
         <page name='求 1 + 2 + 3 + ... + n'/>
+        <page name='两两交换链表中的节点'/>
+        <page name='完全平方数'/>
     </pages>
 </playground>
