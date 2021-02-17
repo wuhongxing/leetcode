@@ -49,5 +49,9 @@
         <page name='求 1 + 2 + 3 + ... + n'/>
         <page name='两两交换链表中的节点'/>
         <page name='完全平方数'/>
+        <page name='相同二叉树'/>
+        <page name='寻找两个正序数组的中位数'/>
+        <page name='最长回文子串'/>
+        <page name='验证二叉搜索树'/>
     </pages>
 </playground>
