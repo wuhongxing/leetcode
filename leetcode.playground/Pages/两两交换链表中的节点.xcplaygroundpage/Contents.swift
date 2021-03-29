@@ -27,7 +27,7 @@ class ListNode {
 
 class Solution {
     func swapPairs(_ head: ListNode?) -> ListNode? {
-        if head == nil || head?.next == nil{
+        if head?.next?.next == nil {
             return head
         }
         let p = swapPairs(head?.next?.next)
@@ -37,10 +37,10 @@ class Solution {
     }
 }
 
-let node1 = ListNode(10, ListNode(20, ListNode(30, ListNode(40))))
+let node1 = ListNode(10, ListNode(20, ListNode(30, ListNode(40, ListNode(50, ListNode(60))))))
 var solution = Solution()
 var node = solution.swapPairs(node1)
-while (node != nil) {
+while node != nil {
     print(node?.val)
     node = node?.next
 }

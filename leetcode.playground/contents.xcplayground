@@ -54,5 +54,13 @@
         <page name='最长回文子串'/>
         <page name='验证二叉搜索树'/>
         <page name='Pow(x,n)'/>
+        <page name='好数对的数目'/>
+        <page name='拥有最多糖果的孩子'/>
+        <page name='重新排列数组'/>
+        <page name='最大连续1的个数III'/>
+        <page name='子集'/>
+        <page name='一维数组的动态和'/>
+        <page name='最富有客户的资产总量'/>
+        <page name='回文数'/>
     </pages>
 </playground>
