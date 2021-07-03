@@ -62,5 +62,9 @@
         <page name='一维数组的动态和'/>
         <page name='最富有客户的资产总量'/>
         <page name='回文数'/>
+        <page name='在排序数组中查找元素的第一个和最后一个位置'/>
+        <page name='Untitled Page'/>
+        <page name='笨阶乘'/>
+        <page name='合并两个有序数组'/>
     </pages>
 </playground>
