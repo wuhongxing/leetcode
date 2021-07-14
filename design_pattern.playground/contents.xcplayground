@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true'>
+    <pages>
+        <page name='责任链模式'/>
+        <page name='增值责任链'/>
+        <page name='责任链 with callback'/>
+        <page name='简单:静态工厂'/>
+        <page name='工厂方法'/>
+        <page name='装饰者模式'/>
+        <page name='中介者模式'/>
+        <page name='中介者模式（改进后的）'/>
+    </pages>
+</playground>
