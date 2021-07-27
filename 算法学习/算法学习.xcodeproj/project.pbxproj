@@ -15,6 +15,8 @@
 		1B115F2026B00852003A6E04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B115F1E26B00852003A6E04 /* LaunchScreen.storyboard */; };
 		1B115F2B26B00853003A6E04 /* ____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B115F2A26B00853003A6E04 /* ____Tests.swift */; };
 		1B115F3626B00853003A6E04 /* ____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B115F3526B00853003A6E04 /* ____UITests.swift */; };
+		1B115F4826B008D1003A6E04 /* MaxDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B115F4726B008D1003A6E04 /* MaxDepth.swift */; };
+		1B115F5026B00945003A6E04 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B115F4F26B00945003A6E04 /* TreeNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1B115F3126B00853003A6E04 /* 算法学习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "算法学习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B115F3526B00853003A6E04 /* ____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "____UITests.swift"; sourceTree = "<group>"; };
 		1B115F3726B00853003A6E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B115F4726B008D1003A6E04 /* MaxDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxDepth.swift; sourceTree = "<group>"; };
+		1B115F4F26B00945003A6E04 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		1B115F1226B00850003A6E04 /* 算法学习 */ = {
 			isa = PBXGroup;
 			children = (
+				1B115F4626B008AA003A6E04 /* 二叉树 */,
 				1B115F1326B00850003A6E04 /* AppDelegate.swift */,
 				1B115F1526B00850003A6E04 /* SceneDelegate.swift */,
 				1B115F1726B00850003A6E04 /* ViewController.swift */,
@@ -126,6 +131,15 @@
 				1B115F3726B00853003A6E04 /* Info.plist */,
 			);
 			path = "算法学习UITests";
+			sourceTree = "<group>";
+		};
+		1B115F4626B008AA003A6E04 /* 二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				1B115F4F26B00945003A6E04 /* TreeNode.swift */,
+				1B115F4726B008D1003A6E04 /* MaxDepth.swift */,
+			);
+			path = "二叉树";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B115F4826B008D1003A6E04 /* MaxDepth.swift in Sources */,
 				1B115F1826B00850003A6E04 /* ViewController.swift in Sources */,
 				1B115F1426B00850003A6E04 /* AppDelegate.swift in Sources */,
+				1B115F5026B00945003A6E04 /* TreeNode.swift in Sources */,
 				1B115F1626B00850003A6E04 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
