@@ -9,5 +9,13 @@
         <page name='装饰者模式'/>
         <page name='中介者模式'/>
         <page name='中介者模式（改进后的）'/>
+        <page name='观察者模式'/>
+        <page name='组合模式'/>
+        <page name='享元模式'/>
+        <page name='观察者模式（二）'/>
+        <page name='状态模式'/>
+        <page name='策略模式'/>
+        <page name='迭代器模式'/>
+        <page name='访问者模式'/>
     </pages>
 </playground>
