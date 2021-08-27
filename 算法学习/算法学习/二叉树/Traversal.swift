@@ -7,17 +7,30 @@
 
 import Foundation
 
-class Traversal {
-    func traversal(_ root: TreeNode?) {
-        if let root = root {
-            print("pre", root.val)
-            traversal(root.left)
-            print("middle", root.val)
-            traversal(root.right)
-            print("end", root.val)
-        }
-//        print("root is nil")
+func traversal(_ root: TreeNode?) {
+    if let root = root {
+//        print("pre", root.val)
+        traversal(root.left)
+        print("middle", root.val)
+        traversal(root.right)
+//        print("end", root.val)
     }
+//        print("root is nil")
+}
+
+func traversal(_ root: TreeNode1?) {
+    if let root = root {
+//        print("pre", root.val)
+        traversal(root.left)
+        print("middle", root.value)
+        traversal(root.right)
+//        print("end", root.val)
+    }
+//        print("root is nil")
+}
+
+class Traversal {
+    
     
     // 用迭代法先序遍历
     func traversal1(_ root: TreeNode?) {
