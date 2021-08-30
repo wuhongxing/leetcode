@@ -67,5 +67,7 @@
         <page name='笨阶乘'/>
         <page name='合并两个有序数组'/>
         <page name='递归乘法'/>
+        <page name='反转链表二'/>
+        <page name='反转二叉树'/>
     </pages>
 </playground>
