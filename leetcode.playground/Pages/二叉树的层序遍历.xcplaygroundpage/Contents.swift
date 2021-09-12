@@ -33,7 +33,7 @@ class TreeNode {
 var node = TreeNode(1, TreeNode(9), TreeNode(10, TreeNode(15), TreeNode(7)))
 class Solution {
     func levelOrder(_ root: TreeNode?) -> [[Int]] {
-        guard var root = root else { return [] }
+        guard let root = root else { return [] }
         var result = [[Int]]()
         var queue = [TreeNode]()
         queue.append(root)
@@ -64,3 +64,69 @@ class Solution {
 }
 var solution = Solution()
 solution.levelOrder(node)
+
+
+func levelOrder1(_ root: TreeNode?) -> [Int]? {
+    guard let root = root else {
+        return nil
+    }
+    var queue = [TreeNode]()
+    queue.append(root)
+    var result = [Int]()
+    while !queue.isEmpty {
+        if let left = queue.first?.left {
+            queue.append(left)
+        }
+        if let right = queue.first?.right {
+            queue.append(right)
+        }
+        if let val = queue.first?.val {
+            result.append(val)
+            queue.removeFirst()
+        }
+    }
+    return result
+}
+//print(levelOrder1(node))
+
+func levelOrder2(_ root: TreeNode?) -> [[Int]] {
+    guard let root = root else {
+        return []
+    }
+    var queue = [TreeNode]()
+    queue.append(root)
+    var last = 1
+    var number = 0
+    var result = [[Int]]()
+    result.append([])
+    while !queue.isEmpty {
+        if let left = queue.first?.left {
+            number += 1
+            queue.append(left)
+        }
+        if let right = queue.first?.right {
+            number += 1
+            queue.append(right)
+        }
+        if let val = queue.first?.val {
+            var arrayLast = result.last
+            arrayLast?.append(val)
+            result.removeLast()
+            result.append(arrayLast!)
+            queue.removeFirst()
+            last -= 1
+            if last == 0 {
+                last = number
+                number = 0
+                result.append([])
+            }
+        }
+    }
+    result.removeLast()
+    return result
+}
+print(levelOrder2(node))
+// 我的解决方法，可能比较好理解，但是官方的更优秀
+// 官方的方法在于记录了下一层节点的个数
+// 然后统一的进行了出队操作，还不错
+    
