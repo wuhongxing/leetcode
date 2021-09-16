@@ -71,5 +71,7 @@
         <page name='反转二叉树'/>
         <page name='二又平衡树'/>
         <page name='堆'/>
+        <page name='字符串的子序列及全排列'/>
+        <page name='二叉树的最大深度'/>
     </pages>
 </playground>
